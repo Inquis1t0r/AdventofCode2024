@@ -1,0 +1,26 @@
+.slds-m-top_medium {
+    margin-top: 1rem;
+}
+
+.slds-m-around_medium {
+    margin: 1rem;
+}
+
+.toggle-button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--lwc-colorBackground, #f4f6f9);
+    box-shadow: var(--lwc-shadowSoft, 0 2px 4px rgba(0, 0, 0, 0.2));
+    transition: background-color 0.2s ease-in-out;
+}
+
+.toggle-button:hover {
+    background-color: var(--lwc-colorBackgroundHighlight, #e0e5eb);
+}
+
+.slds-align_absolute-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

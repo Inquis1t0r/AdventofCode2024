@@ -1,1 +1,49 @@
+<template>
+    <lightning-card title="Advent of Code Solver" icon-name="action:goal">
+        <div class="slds-m-around_medium">
+            <!-- Wybór dnia -->
+            <lightning-combobox
+                name="daySelector"
+                label="Select Day"
+                value={selectedDay}
+                placeholder="Select a day"
+                options={daysOptions}
+                onchange={handleDayChange}>
+            </lightning-combobox>
 
+            <!-- Wybór poziomu trudności -->
+            <lightning-combobox
+                name="partSelector"
+                label="Select Part"
+                value={selectedPart}
+                placeholder="Select a part"
+                options={partOptions}
+                onchange={handlePartChange}>
+            </lightning-combobox>
+
+            <!-- Przełącznik między JS i Apex -->
+            <div class="slds-m-top_medium slds-align_absolute-center">
+                <lightning-button-icon
+                    icon-name={executionTypeIcon}
+                    variant="bare"
+                    alternative-text="Toggle Execution Type"
+                    onclick={toggleExecutionType}
+                    class="toggle-button">
+                </lightning-button-icon>
+                <span class="slds-m-left_small">{executionTypeLabel}</span>
+            </div>
+
+            <!-- Uruchomienie zadania -->
+            <lightning-button
+                label="Run Task"
+                onclick={runTask}
+                class="slds-m-top_medium">
+            </lightning-button>
+
+            <!-- Wynik -->
+            <template if:true={result}>
+                <lightning-formatted-text value={result} class="slds-m-top_medium"></lightning-formatted-text>
+            </template>
+        </div>
+    </lightning-card>
+</template>
