@@ -17,6 +17,31 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
 
+
+         🎄 Merry Christmas 🎄
+   _______  _    _ _______  ______ 
+  |  ____|| |  | |  __ \ \/ / __ \
+  | |__   | |  | | |  | \  / |  | |
+  |  __|  | |  | | |  | |\/| |  | |
+  | |____ | |__| | |__| |  | |__| |
+  |______| \____/|_____/|__|\____/ 
+
+      Advent of Code 2024
+   *   *   *   *   *   *   *
+          ____||____
+    *     ||  ||  ||     *
+          ||  ||  ||        *
+       *  ||  ||  ||  *
+   *       '~~~~~~~~'           *
+          __  __    __ 
+         / _||__|| ||_)o      
+        \__||  || ||_)        
+   *    Advent by ChatGPT      *
+
+          *   *    *   *
+       *   *  🎄  *   *
+
+
 ## TaskProgress
 
 |Day/Part   | JavaScript  | Apex  |  Swift  |
