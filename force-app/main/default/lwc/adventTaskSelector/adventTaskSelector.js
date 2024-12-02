@@ -4,8 +4,8 @@ import runApexTask from '@salesforce/apex/AdventOfCodeTaskRunner.runTask';
 // Import zadań JavaScript na stałe
 import solveDay1Part1 from './tasks/day1Part1';
 import solveDay1Part2 from './tasks/day1Part2';
-//import solveDay2Part1 from './tasks/day2Part1';
-//import solveDay2Part2 from './tasks/day2Part2';
+import solveDay2Part1 from './tasks/day2Part1';
+import solveDay2Part2 from './tasks/day2Part2';
 
 export default class AdventTaskSelector extends LightningElement {
     @track selectedDay = '';
@@ -77,7 +77,7 @@ export default class AdventTaskSelector extends LightningElement {
     getTaskCode(day, part) {
         const tasks = {
             1: { 1: solveDay1Part1, 2: solveDay1Part2 },
-            //2: { 1: solveDay2Part1, 2: solveDay2Part2 },
+            2: { 1: solveDay2Part1, 2: solveDay2Part2 },
         };
 
         return tasks[day]?.[part] || null;
