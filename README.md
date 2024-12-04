@@ -46,8 +46,8 @@ The `sfdx-project.json` file contains useful configuration information for your 
 
 |Day/Part   | JavaScript  | Apex  |  Swift  |
 |---|---|---|---|
-|   |   |   |   |
-|   |   |   |   |
+|  1 | 1  |  :heavy_check_mark:  |   |
+| 1  |  2 |   |   |
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
