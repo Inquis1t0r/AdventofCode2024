@@ -50,8 +50,8 @@ The `sfdx-project.json` file contains useful configuration information for your 
 | 1/2  |  :heavy_check_mark: |   |   |
 | 2/1  |  :heavy_check_mark: |   |   |
 |  2/2 | :heavy_check_mark:  |   |   |
-|   |   |   |   |
-|   |   |   |   |
+|  3/1 |   |   |   |
+|  3/2 |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
 |   |   |   |   |
